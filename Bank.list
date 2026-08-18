@@ -20,3 +20,16 @@ HOST-SUFFIX,tenpay.com,Bank
 HOST-SUFFIX,wechatpay.com,Bank
 HOST-SUFFIX,wx.tenpay.com,Bank
 HOST-SUFFIX,pay.wechat.com,Bank
+
+#iFAST (奕丰)
+HOST-SUFFIX,ifastcorp.com,Bank
+HOST-SUFFIX,ifastfinancial.com,Bank
+HOST-SUFFIX,ifastfinancial.com.hk,Bank
+HOST-SUFFIX,ifastgm.com.hk,Bank
+HOST-SUFFIX,ifastgm.com,Bank
+HOST-SUFFIX,fsmone.com,Bank
+HOST-SUFFIX,fsmone.com.hk,Bank
+HOST-SUFFIX,fundsupermart.com,Bank
+HOST-SUFFIX,ifastepension.com,Bank
+HOST-SUFFIX,ifastgp.com,Bank
+HOST-SUFFIX,ifastgp.com.hk,Bank
