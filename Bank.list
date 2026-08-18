@@ -7,6 +7,10 @@ HOST-SUFFIX,za.group,Bank
 HOST-SUFFIX,bank.za.group,Bank
 HOST-SUFFIX,zainvest.group,Bank
 
+#Starryblu
+HOST-SUFFIX,starryblu.com,Bank
+HOST-SUFFIX,blog.starryblu.com,Bank
+
 #AlipayHK
 HOST-SUFFIX,alipay.hk,Bank
 HOST-SUFFIX,alipay.com,Bank
