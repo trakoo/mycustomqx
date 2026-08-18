@@ -30,6 +30,22 @@ HOST-SUFFIX,bscdnweb.com,Crypto
 HOST-SUFFIX,bsappapi.com,Crypto
 HOST-SUFFIX,bsappapi.cc,Crypto
 
+#Bybit
+HOST-SUFFIX,bybit.com,Crypto
+HOST-SUFFIX,bybit.cloud,Crypto
+HOST-SUFFIX,bybit.biz,Crypto
+HOST-SUFFIX,bybit-global.com,Crypto
+HOST-SUFFIX,bybitglobal.com,Crypto
+HOST-SUFFIX,bycsi.com,Crypto
+HOST-SUFFIX,bytick.com,Crypto
+HOST-SUFFIX,byapis.com,Crypto
+HOST-SUFFIX,bycbe.com,Crypto
+HOST-SUFFIX,bymj.io,Crypto
+HOST-SUFFIX,byabcde.com,Crypto
+HOST-SUFFIX,byapps.net,Crypto
+HOST-SUFFIX,byd3c3.com,Crypto
+HOST-SUFFIX,bybdc6.com,Crypto
+
 #OKX
 HOST-SUFFIX,okx.com,Crypto
 HOST-SUFFIX,okex.com,Crypto
