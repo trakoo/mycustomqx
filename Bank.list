@@ -5,6 +5,7 @@ HOST-SUFFIX,transferwise.com,Bank
 #ZA香港 (众安银行)
 HOST-SUFFIX,za.group,Bank
 HOST-SUFFIX,bank.za.group,Bank
+HOST-SUFFIX,zainvest.group,Bank
 
 #AlipayHK
 HOST-SUFFIX,alipay.hk,Bank
