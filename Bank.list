@@ -1,0 +1,22 @@
+#WISE
+HOST-SUFFIX,wise.com,Bank
+HOST-SUFFIX,transferwise.com,Bank
+
+#ZA香港 (众安银行)
+HOST-SUFFIX,za.group,Bank
+HOST-SUFFIX,bank.za.group,Bank
+
+#AlipayHK
+HOST-SUFFIX,alipay.hk,Bank
+HOST-SUFFIX,alipay.com,Bank
+HOST-SUFFIX,alipayhk.com,Bank
+HOST-SUFFIX,alipayplus.com,Bank
+
+#WeChat Pay HK
+HOST-SUFFIX,wechat.com,Bank
+HOST-SUFFIX,weixin.qq.com,Bank
+HOST-SUFFIX,weixin.com,Bank
+HOST-SUFFIX,tenpay.com,Bank
+HOST-SUFFIX,wechatpay.com,Bank
+HOST-SUFFIX,wx.tenpay.com,Bank
+HOST-SUFFIX,pay.wechat.com,Bank
