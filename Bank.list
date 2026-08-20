@@ -1,3 +1,17 @@
+#HSBC (汇丰)
+HOST-SUFFIX,hsbc.com.hk,Bank
+HOST-SUFFIX,hsbc.com,Bank
+HOST-SUFFIX,about.hsbc.com.hk,Bank
+
+#恒生银行
+HOST-SUFFIX,hangseng.com,Bank
+HOST-SUFFIX,hangseng.com.cn,Bank
+
+#中银香港 (BOCHK)
+HOST-SUFFIX,bochk.com,Bank
+HOST-SUFFIX,bankofchina.com,Bank
+HOST-SUFFIX,boc.cn,Bank
+
 #WISE
 HOST-SUFFIX,wise.com,Bank
 HOST-SUFFIX,transferwise.com,Bank
