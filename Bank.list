@@ -7,6 +7,16 @@ HOST-SUFFIX,za.group,Bank
 HOST-SUFFIX,bank.za.group,Bank
 HOST-SUFFIX,zainvest.group,Bank
 
+#PayPal
+HOST-SUFFIX,paypal.com,Bank
+HOST-SUFFIX,paypal.me,Bank
+HOST-SUFFIX,paypalobjects.com,Bank
+HOST-SUFFIX,paypal-corp.com,Bank
+HOST-SUFFIX,paypalcorp.com,Bank
+HOST-SUFFIX,braintreegateway.com,Bank
+HOST-SUFFIX,braintree-api.com,Bank
+HOST-SUFFIX,venmo.com,Bank
+
 #Starryblu
 HOST-SUFFIX,starryblu.com,Bank
 HOST-SUFFIX,blog.starryblu.com,Bank
