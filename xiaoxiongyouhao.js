@@ -1,6 +1,4 @@
-/*
-
-小熊油耗3.51
+/*小熊油耗3.51*/
 
 [rewrite_local]
 
@@ -9,8 +7,6 @@ https://www.xiaoxiongyouhao.com/api/vip/index.php url script-response-body https
 [mitm] 
 
 hostname = www.xiaoxiongyouhao.com
-
-*/
 
 var body = $response.body;
 
