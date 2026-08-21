@@ -2,7 +2,7 @@
 
 [rewrite_local]
 
-https://www.xiaoxiongyouhao.com/api/vip/index.php url script-response-body https://raw.githubusercontent.com/Yu9191/Rewrite/main/xiaoxiongyouhao.js
+https://www.xiaoxiongyouhao.com/api/vip/index.php url script-response-body https://raw.githubusercontent.com/trakoo/mycustomqx/main/xiaoxiongyouhao.js
 
 [mitm] 
 
