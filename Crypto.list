@@ -61,3 +61,13 @@ HOST-SUFFIX,kraken.com,Crypto
 HOST-SUFFIX,kraken.fx,Crypto
 HOST-SUFFIX,krakenfutures.com,Crypto
 HOST-SUFFIX,krakenpro.com,Crypto
+
+#Krak (Kraken Wallet)
+HOST-SUFFIX,kraken.com,Crypto
+HOST-SUFFIX,krak.app,Crypto
+HOST-SUFFIX,wallet.kraken.com,Crypto
+
+#Bitget
+HOST-SUFFIX,bitget.com,Crypto
+HOST-SUFFIX,bitget.site,Crypto
+HOST-SUFFIX,bitgetapp.com,Crypto
