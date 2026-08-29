@@ -1,0 +1,63 @@
+name: Update Google All-in-One List
+
+on:
+  schedule:
+    # 每天 UTC 时间 0 点运行一次（北京时间早上 8 点）
+    - cron: '0 0 * * *'
+  workflow_dispatch:  # 允许你手动点击运行
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Download and merge lists
+        run: |
+          # 下载三个上游
+          curl -sL "https://raw.githubusercontent.com/BlueGrave/Surge/refs/heads/master/Ruleset/Mail.list" -o mail.list
+          curl -sL "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Google/Google.list" -o google.list
+          curl -sL "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/YouTube.list" -o youtube.list
+
+          # 生成合并文件（带来源说明 + 去重）
+          {
+            echo "# Google All-in-One List"
+            echo "# Auto-updated by GitHub Actions"
+            echo "# Last update: $(date -u '+%Y-%m-%d %H:%M:%S UTC')"
+            echo "#"
+            echo "# Sources:"
+            echo "# 1. https://raw.githubusercontent.com/BlueGrave/Surge/refs/heads/master/Ruleset/Mail.list"
+            echo "# 2. https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Google/Google.list"
+            echo "# 3. https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/YouTube.list"
+            echo "#"
+            echo "# ===== Mail ====="
+            cat mail.list
+            echo ""
+            echo "# ===== Google ====="
+            cat google.list
+            echo ""
+            echo "# ===== YouTube ====="
+            cat youtube.list
+          } > temp_all.list
+
+          # 简单去重：保留第一次出现的规则行（注释行也保留）
+          awk '!seen[$0]++' temp_all.list > googleAllinone.list
+
+          # 清理临时文件
+          rm -f mail.list google.list youtube.list temp_all.list
+
+      - name: Commit and push if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add googleAllinone.list
+          if git diff --staged --quiet; then
+            echo "No changes"
+          else
+            git commit -m "chore: update googleAllinone.list"
+            git push
+          fi
