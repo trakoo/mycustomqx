@@ -93,3 +93,8 @@ HOST-SUFFIX,mexc.fm,Crypto
 HOST-SUFFIX,mexc.co,Crypto
 HOST-SUFFIX,api.mexc.com,Crypto
 HOST-SUFFIX,blog.mexc.com,Crypto
+
+#KAST
+HOST-SUFFIX,kast.xyz,Crypto
+HOST-SUFFIX,kastcard.com,Crypto
+HOST-SUFFIX,concierge.kast.xyz,Crypto
