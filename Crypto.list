@@ -83,4 +83,11 @@ HOST-SUFFIX,kast.xyz,Crypto
 HOST-SUFFIX,kastcard.com,Crypto
 HOST-SUFFIX,concierge.kast.xyz,Crypto
 
+#第三方服务
+#Privy 是一家做 Web3 嵌入式钱包 / 身份认证基础设施 的公司（已被 Stripe 收购）
+HOST-SUFFIX,privy.io,Crypto
+HOST-SUFFIX,expo.dev,Crypto
+
+
+
 
