@@ -1,0 +1,162 @@
+# ==================== Dropbox ====================
+# NAME: Dropbox
+# AUTHOR: blackmatrix7
+# REPO: https://github.com/blackmatrix7/ios_rule_script
+# UPDATED: 2025-06-06 09:17:43
+# DOMAIN-SUFFIX: 17
+# TOTAL: 17
+HOST-SUFFIX,db.tt,AiSocial
+HOST-SUFFIX,dropbox-dns.com,AiSocial
+HOST-SUFFIX,dropbox.com,AiSocial
+HOST-SUFFIX,dropbox.tech,AiSocial
+HOST-SUFFIX,dropbox.zendesk.com,AiSocial
+HOST-SUFFIX,dropboxapi.com,AiSocial
+HOST-SUFFIX,dropboxbusiness.com,AiSocial
+HOST-SUFFIX,dropboxcaptcha.com,AiSocial
+HOST-SUFFIX,dropboxforum.com,AiSocial
+HOST-SUFFIX,dropboxforums.com,AiSocial
+HOST-SUFFIX,dropboxinsiders.com,AiSocial
+HOST-SUFFIX,dropboxmail.com,AiSocial
+HOST-SUFFIX,dropboxpartners.com,AiSocial
+HOST-SUFFIX,dropboxstatic.com,AiSocial
+HOST-SUFFIX,dropboxusercontent.com,AiSocial
+HOST-SUFFIX,getdropbox.com,AiSocial
+HOST-SUFFIX,paper-attachments.s3.amazonaws.com,AiSocial
+
+# ==================== GitHub ====================
+# NAME: GitHub
+# AUTHOR: blackmatrix7
+# REPO: https://github.com/blackmatrix7/ios_rule_script
+# UPDATED: 2025-06-12 02:06:19
+# DOMAIN-KEYWORD: 1
+# DOMAIN-SUFFIX: 30
+# TOTAL: 31
+HOST-SUFFIX,atom.io,AiSocial
+HOST-SUFFIX,dependabot.com,AiSocial
+HOST-SUFFIX,ghcr.io,AiSocial
+HOST-SUFFIX,git.io,AiSocial
+HOST-SUFFIX,github-atom-io-herokuapp-com.freetls.fastly.net,AiSocial
+HOST-SUFFIX,github-avatars.oss-cn-hongkong.aliyuncs.com,AiSocial
+HOST-SUFFIX,github-cloud.s3.amazonaws.com,AiSocial
+HOST-SUFFIX,github.blog,AiSocial
+HOST-SUFFIX,github.com,AiSocial
+HOST-SUFFIX,github.community,AiSocial
+HOST-SUFFIX,github.dev,AiSocial
+HOST-SUFFIX,github.io,AiSocial
+HOST-SUFFIX,githubapp.com,AiSocial
+HOST-SUFFIX,githubassets.com,AiSocial
+HOST-SUFFIX,githubcopilot.com,AiSocial
+HOST-SUFFIX,githubhackathon.com,AiSocial
+HOST-SUFFIX,githubnext.com,AiSocial
+HOST-SUFFIX,githubpreview.dev,AiSocial
+HOST-SUFFIX,githubstatus.com,AiSocial
+HOST-SUFFIX,githubuniverse.com,AiSocial
+HOST-SUFFIX,githubusercontent.com,AiSocial
+HOST-SUFFIX,myoctocat.com,AiSocial
+HOST-SUFFIX,npm.community,AiSocial
+HOST-SUFFIX,npmjs.com,AiSocial
+HOST-SUFFIX,npmjs.org,AiSocial
+HOST-SUFFIX,opensource.guide,AiSocial
+HOST-SUFFIX,rawgit.com,AiSocial
+HOST-SUFFIX,rawgithub.com,AiSocial
+HOST-SUFFIX,repo.new,AiSocial
+HOST-SUFFIX,thegithubshop.com,AiSocial
+HOST-KEYWORD,github,AiSocial
+
+# ==================== Meta AI ====================
+#Muse.ai / Meta AI
+HOST-SUFFIX,muse.ai,AiSocial
+HOST-SUFFIX,meta.ai,AiSocial
+HOST-SUFFIX,ai.meta.com,AiSocial
+HOST-SUFFIX,meta.com,AiSocial
+HOST-KEYWORD,muse,AiSocial
+HOST-KEYWORD,metaai,AiSocial
+
+# ==================== OpenAI ====================
+# 内容：OpenAi
+# 数量：16条
+HOST-KEYWORD,openai,AiSocial
+HOST-SUFFIX,auth0.com,AiSocial
+HOST-SUFFIX,challenges.cloudflare.com,AiSocial
+HOST-SUFFIX,chatgpt.com,AiSocial
+HOST-SUFFIX,client-api.arkoselabs.com,AiSocial
+HOST-SUFFIX,events.statsigapi.net,AiSocial
+HOST-SUFFIX,featuregates.org,AiSocial
+HOST-SUFFIX,identrust.com,AiSocial
+HOST-SUFFIX,intercom.io,AiSocial
+HOST-SUFFIX,intercomcdn.com,AiSocial
+HOST-SUFFIX,oaistatic.com,AiSocial
+HOST-SUFFIX,oaiusercontent.com,AiSocial
+HOST-SUFFIX,openai.com,AiSocial
+HOST-SUFFIX,openaiapi-site.azureedge.net,AiSocial
+HOST-SUFFIX,sentry.io,AiSocial
+HOST-SUFFIX,stripe.com,AiSocial
+HOST-SUFFIX,sora.com,AiSocial
+
+# ==================== XnTG ====================
+# XnTG List (Twitter + Telegram)
+# Auto-updated by GitHub Actions
+# Last update: 2026-10-30 05:41:13 UTC
+#
+# Sources:
+# 1. https://raw.githubusercontent.com/trakoo/ios_rule_script/refs/heads/master/rule/Clash/Twitter/Twitter.list
+# 2. https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Telegram.list
+# ===== Twitter / X =====
+# NAME: Twitter
+# AUTHOR: blackmatrix7
+# REPO: https://github.com/blackmatrix7/ios_rule_script
+# UPDATED: 2025-09-28 02:08:26
+# DOMAIN-KEYWORD: 1
+# DOMAIN-SUFFIX: 26
+# IP-CIDR: 6
+# TOTAL: 33
+HOST-SUFFIX,ads-twitter.com,AiSocial
+HOST-SUFFIX,cms-twdigitalassets.com,AiSocial
+HOST-SUFFIX,grok.com,AiSocial
+HOST-SUFFIX,periscope.tv,AiSocial
+HOST-SUFFIX,pscp.tv,AiSocial
+HOST-SUFFIX,t.co,AiSocial
+HOST-SUFFIX,tellapart.com,AiSocial
+HOST-SUFFIX,tweetdeck.com,AiSocial
+HOST-SUFFIX,twimg.co,AiSocial
+HOST-SUFFIX,twimg.com,AiSocial
+HOST-SUFFIX,twimg.org,AiSocial
+HOST-SUFFIX,twitpic.com,AiSocial
+HOST-SUFFIX,twitter.biz,AiSocial
+HOST-SUFFIX,twitter.com,AiSocial
+HOST-SUFFIX,twitter.jp,AiSocial
+HOST-SUFFIX,twittercommunity.com,AiSocial
+HOST-SUFFIX,twitterflightschool.com,AiSocial
+HOST-SUFFIX,twitterinc.com,AiSocial
+HOST-SUFFIX,twitteroauth.com,AiSocial
+HOST-SUFFIX,twitterstat.us,AiSocial
+HOST-SUFFIX,twtrdns.net,AiSocial
+HOST-SUFFIX,twttr.com,AiSocial
+HOST-SUFFIX,twttr.net,AiSocial
+HOST-SUFFIX,twvid.com,AiSocial
+HOST-SUFFIX,vine.co,AiSocial
+HOST-SUFFIX,x.com,AiSocial
+HOST-KEYWORD,twitter,AiSocial
+IP-CIDR,192.133.76.0/22,AiSocial
+IP-CIDR,199.59.148.0/22,AiSocial
+IP-CIDR,199.96.56.0/21,AiSocial
+IP-CIDR,202.160.128.0/22,AiSocial
+IP-CIDR,209.237.192.0/19,AiSocial
+IP-CIDR,69.195.160.0/19,AiSocial
+# ===== Telegram =====
+# Telegram
+#PROCESS-NAME,Telegram.exe
+#PROCESS-NAME,org.telegram.messenger
+HOST-SUFFIX,t.me,AiSocial
+HOST-SUFFIX,tdesktop.com,AiSocial
+HOST-SUFFIX,telegra.ph,AiSocial
+HOST-SUFFIX,telegram.me,AiSocial
+HOST-SUFFIX,telegram.org,AiSocial
+HOST-SUFFIX,telesco.pe,AiSocial
+IP-CIDR,91.108.0.0/16,AiSocial
+IP-CIDR,95.161.64.0/20,AiSocial
+IP-CIDR,109.239.140.0/24,AiSocial
+IP-CIDR,149.154.160.0/20,AiSocial
+IP6-CIDR,2001:67c:4e8::/48,AiSocial
+IP6-CIDR,2001:b28:f23d::/48,AiSocial
+IP6-CIDR,2001:b28:f23f::/48,AiSocial
