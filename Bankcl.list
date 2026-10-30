@@ -1,58 +1,58 @@
 #HSBC (汇丰)
-DOMAIN-SUFFIX,hsbc.com.hk,Bank
-DOMAIN-SUFFIX,hsbc.com,Bank
-DOMAIN-SUFFIX,about.hsbc.com.hk,Bank
+DOMAIN-SUFFIX,hsbc.com.hk
+DOMAIN-SUFFIX,hsbc.com
+DOMAIN-SUFFIX,about.hsbc.com.hk
 
 #恒生银行
-DOMAIN-SUFFIX,hangseng.com,Bank
-DOMAIN-SUFFIX,hangseng.com.cn,Bank
+DOMAIN-SUFFIX,hangseng.com
+DOMAIN-SUFFIX,hangseng.com.cn
 
 #中银香港 (BOCHK)
-DOMAIN-SUFFIX,bochk.com,Bank
-DOMAIN-SUFFIX,bankofchina.com,Bank
-DOMAIN-SUFFIX,boc.cn,Bank
+DOMAIN-SUFFIX,bochk.com
+DOMAIN-SUFFIXofchina.com
+DOMAIN-SUFFIX,boc.cn
 
 #WISE
-DOMAIN-SUFFIX,wise.com,Bank
-DOMAIN-SUFFIX,transferwise.com,Bank
+DOMAIN-SUFFIX,wise.com
+DOMAIN-SUFFIX,transferwise.com
 
 #ZA香港 (众安银行)
-DOMAIN-SUFFIX,za.group,Bank
-DOMAIN-SUFFIX,bank.za.group,Bank
-DOMAIN-SUFFIX,zainvest.group,Bank
+DOMAIN-SUFFIX,za.group
+DOMAIN-SUFFIX.za.group
+DOMAIN-SUFFIX,zainvest.group
 
 #PayPal
-DOMAIN-SUFFIX,paypal.com,Bank
-DOMAIN-SUFFIX,paypal.me,Bank
-DOMAIN-SUFFIX,paypalobjects.com,Bank
-DOMAIN-SUFFIX,paypal-corp.com,Bank
-DOMAIN-SUFFIX,paypalcorp.com,Bank
-DOMAIN-SUFFIX,braintreegateway.com,Bank
-DOMAIN-SUFFIX,braintree-api.com,Bank
-DOMAIN-SUFFIX,venmo.com,Bank
+DOMAIN-SUFFIX,paypal.com
+DOMAIN-SUFFIX,paypal.me
+DOMAIN-SUFFIX,paypalobjects.com
+DOMAIN-SUFFIX,paypal-corp.com
+DOMAIN-SUFFIX,paypalcorp.com
+DOMAIN-SUFFIX,braintreegateway.com
+DOMAIN-SUFFIX,braintree-api.com
+DOMAIN-SUFFIX,venmo.com
 
 #Starryblu
-DOMAIN-SUFFIX,starryblu.com,Bank
-DOMAIN-SUFFIX,blog.starryblu.com,Bank
+DOMAIN-SUFFIX,starryblu.com
+DOMAIN-SUFFIX,blog.starryblu.com
 
 #AlipayHK
-DOMAIN-SUFFIX,alipay.hk,Bank
-DOMAIN-SUFFIX,alipay.com,Bank
-DOMAIN-SUFFIX,alipayhk.com,Bank
-DOMAIN-SUFFIX,alipayplus.com,Bank
+DOMAIN-SUFFIX,alipay.hk
+DOMAIN-SUFFIX,alipay.com
+DOMAIN-SUFFIX,alipayhk.com
+DOMAIN-SUFFIX,alipayplus.com
 
 #iFAST (奕丰)
-DOMAIN-SUFFIX,ifastcorp.com,Bank
-DOMAIN-SUFFIX,ifastfinancial.com,Bank
-DOMAIN-SUFFIX,ifastfinancial.com.hk,Bank
-DOMAIN-SUFFIX,ifastgm.com.hk,Bank
-DOMAIN-SUFFIX,ifastgm.com,Bank
-DOMAIN-SUFFIX,fsmone.com,Bank
-DOMAIN-SUFFIX,fsmone.com.hk,Bank
-DOMAIN-SUFFIX,fundsupermart.com,Bank
-DOMAIN-SUFFIX,ifastepension.com,Bank
-DOMAIN-SUFFIX,ifastgp.com,Bank
-DOMAIN-SUFFIX,ifastgp.com.hk,Bank
+DOMAIN-SUFFIX,ifastcorp.com
+DOMAIN-SUFFIX,ifastfinancial.com
+DOMAIN-SUFFIX,ifastfinancial.com.hk
+DOMAIN-SUFFIX,ifastgm.com.hk
+DOMAIN-SUFFIX,ifastgm.com
+DOMAIN-SUFFIX,fsmone.com
+DOMAIN-SUFFIX,fsmone.com.hk
+DOMAIN-SUFFIX,fundsupermart.com
+DOMAIN-SUFFIX,ifastepension.com
+DOMAIN-SUFFIX,ifastgp.com
+DOMAIN-SUFFIX,ifastgp.com.hk
 
 #Neverless
-DOMAIN-SUFFIX,neverless.com,Bank
+DOMAIN-SUFFIX,neverless.com
