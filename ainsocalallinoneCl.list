@@ -1,0 +1,162 @@
+# ==================== Dropbox ====================
+# NAME: Dropbox
+# AUTHOR: blackmatrix7
+# REPO: https://github.com/blackmatrix7/ios_rule_script
+# UPDATED: 2025-06-06 09:17:43
+# DOMAIN-SUFFIX: 17
+# TOTAL: 17
+DOMAIN-SUFFIX,db.tt,AiSocial
+DOMAIN-SUFFIX,dropbox-dns.com,AiSocial
+DOMAIN-SUFFIX,dropbox.com,AiSocial
+DOMAIN-SUFFIX,dropbox.tech,AiSocial
+DOMAIN-SUFFIX,dropbox.zendesk.com,AiSocial
+DOMAIN-SUFFIX,dropboxapi.com,AiSocial
+DOMAIN-SUFFIX,dropboxbusiness.com,AiSocial
+DOMAIN-SUFFIX,dropboxcaptcha.com,AiSocial
+DOMAIN-SUFFIX,dropboxforum.com,AiSocial
+DOMAIN-SUFFIX,dropboxforums.com,AiSocial
+DOMAIN-SUFFIX,dropboxinsiders.com,AiSocial
+DOMAIN-SUFFIX,dropboxmail.com,AiSocial
+DOMAIN-SUFFIX,dropboxpartners.com,AiSocial
+DOMAIN-SUFFIX,dropboxstatic.com,AiSocial
+DOMAIN-SUFFIX,dropboxusercontent.com,AiSocial
+DOMAIN-SUFFIX,getdropbox.com,AiSocial
+DOMAIN-SUFFIX,paper-attachments.s3.amazonaws.com,AiSocial
+
+# ==================== GitHub ====================
+# NAME: GitHub
+# AUTHOR: blackmatrix7
+# REPO: https://github.com/blackmatrix7/ios_rule_script
+# UPDATED: 2025-06-12 02:06:19
+# DOMAIN-KEYWORD: 1
+# DOMAIN-SUFFIX: 30
+# TOTAL: 31
+DOMAIN-SUFFIX,atom.io,AiSocial
+DOMAIN-SUFFIX,dependabot.com,AiSocial
+DOMAIN-SUFFIX,ghcr.io,AiSocial
+DOMAIN-SUFFIX,git.io,AiSocial
+DOMAIN-SUFFIX,github-atom-io-herokuapp-com.freetls.fastly.net,AiSocial
+DOMAIN-SUFFIX,github-avatars.oss-cn-hongkong.aliyuncs.com,AiSocial
+DOMAIN-SUFFIX,github-cloud.s3.amazonaws.com,AiSocial
+DOMAIN-SUFFIX,github.blog,AiSocial
+DOMAIN-SUFFIX,github.com,AiSocial
+DOMAIN-SUFFIX,github.community,AiSocial
+DOMAIN-SUFFIX,github.dev,AiSocial
+DOMAIN-SUFFIX,github.io,AiSocial
+DOMAIN-SUFFIX,githubapp.com,AiSocial
+DOMAIN-SUFFIX,githubassets.com,AiSocial
+DOMAIN-SUFFIX,githubcopilot.com,AiSocial
+DOMAIN-SUFFIX,githubhackathon.com,AiSocial
+DOMAIN-SUFFIX,githubnext.com,AiSocial
+DOMAIN-SUFFIX,githubpreview.dev,AiSocial
+DOMAIN-SUFFIX,githubstatus.com,AiSocial
+DOMAIN-SUFFIX,githubuniverse.com,AiSocial
+DOMAIN-SUFFIX,githubusercontent.com,AiSocial
+DOMAIN-SUFFIX,myoctocat.com,AiSocial
+DOMAIN-SUFFIX,npm.community,AiSocial
+DOMAIN-SUFFIX,npmjs.com,AiSocial
+DOMAIN-SUFFIX,npmjs.org,AiSocial
+DOMAIN-SUFFIX,opensource.guide,AiSocial
+DOMAIN-SUFFIX,rawgit.com,AiSocial
+DOMAIN-SUFFIX,rawgithub.com,AiSocial
+DOMAIN-SUFFIX,repo.new,AiSocial
+DOMAIN-SUFFIX,thegithubshop.com,AiSocial
+DOMAIN-KEYWORD,github,AiSocial
+
+# ==================== Meta AI ====================
+#Muse.ai / Meta AI
+DOMAIN-SUFFIX,muse.ai,AiSocial
+DOMAIN-SUFFIX,meta.ai,AiSocial
+DOMAIN-SUFFIX,ai.meta.com,AiSocial
+DOMAIN-SUFFIX,meta.com,AiSocial
+DOMAIN-KEYWORD,muse,AiSocial
+DOMAIN-KEYWORD,metaai,AiSocial
+
+# ==================== OpenAI ====================
+# 内容：OpenAi
+# 数量：16条
+DOMAIN-KEYWORD,openai,AiSocial
+DOMAIN-SUFFIX,auth0.com,AiSocial
+DOMAIN-SUFFIX,challenges.cloudflare.com,AiSocial
+DOMAIN-SUFFIX,chatgpt.com,AiSocial
+DOMAIN-SUFFIX,client-api.arkoselabs.com,AiSocial
+DOMAIN-SUFFIX,events.statsigapi.net,AiSocial
+DOMAIN-SUFFIX,featuregates.org,AiSocial
+DOMAIN-SUFFIX,identrust.com,AiSocial
+DOMAIN-SUFFIX,intercom.io,AiSocial
+DOMAIN-SUFFIX,intercomcdn.com,AiSocial
+DOMAIN-SUFFIX,oaistatic.com,AiSocial
+DOMAIN-SUFFIX,oaiusercontent.com,AiSocial
+DOMAIN-SUFFIX,openai.com,AiSocial
+DOMAIN-SUFFIX,openaiapi-site.azureedge.net,AiSocial
+DOMAIN-SUFFIX,sentry.io,AiSocial
+DOMAIN-SUFFIX,stripe.com,AiSocial
+DOMAIN-SUFFIX,sora.com,AiSocial
+
+# ==================== XnTG ====================
+# XnTG List (Twitter + Telegram)
+# Auto-updated by GitHub Actions
+# Last update: 2026-10-30 05:41:13 UTC
+#
+# Sources:
+# 1. https://raw.githubusercontent.com/trakoo/ios_rule_script/refs/heads/master/rule/Clash/Twitter/Twitter.list
+# 2. https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Telegram.list
+# ===== Twitter / X =====
+# NAME: Twitter
+# AUTHOR: blackmatrix7
+# REPO: https://github.com/blackmatrix7/ios_rule_script
+# UPDATED: 2025-09-28 02:08:26
+# DOMAIN-KEYWORD: 1
+# DOMAIN-SUFFIX: 26
+# IP-CIDR: 6
+# TOTAL: 33
+DOMAIN-SUFFIX,ads-twitter.com,AiSocial
+DOMAIN-SUFFIX,cms-twdigitalassets.com,AiSocial
+DOMAIN-SUFFIX,grok.com,AiSocial
+DOMAIN-SUFFIX,periscope.tv,AiSocial
+DOMAIN-SUFFIX,pscp.tv,AiSocial
+DOMAIN-SUFFIX,t.co,AiSocial
+DOMAIN-SUFFIX,tellapart.com,AiSocial
+DOMAIN-SUFFIX,tweetdeck.com,AiSocial
+DOMAIN-SUFFIX,twimg.co,AiSocial
+DOMAIN-SUFFIX,twimg.com,AiSocial
+DOMAIN-SUFFIX,twimg.org,AiSocial
+DOMAIN-SUFFIX,twitpic.com,AiSocial
+DOMAIN-SUFFIX,twitter.biz,AiSocial
+DOMAIN-SUFFIX,twitter.com,AiSocial
+DOMAIN-SUFFIX,twitter.jp,AiSocial
+DOMAIN-SUFFIX,twittercommunity.com,AiSocial
+DOMAIN-SUFFIX,twitterflightschool.com,AiSocial
+DOMAIN-SUFFIX,twitterinc.com,AiSocial
+DOMAIN-SUFFIX,twitteroauth.com,AiSocial
+DOMAIN-SUFFIX,twitterstat.us,AiSocial
+DOMAIN-SUFFIX,twtrdns.net,AiSocial
+DOMAIN-SUFFIX,twttr.com,AiSocial
+DOMAIN-SUFFIX,twttr.net,AiSocial
+DOMAIN-SUFFIX,twvid.com,AiSocial
+DOMAIN-SUFFIX,vine.co,AiSocial
+DOMAIN-SUFFIX,x.com,AiSocial
+DOMAIN-KEYWORD,twitter,AiSocial
+IP-CIDR,192.133.76.0/22,AiSocial
+IP-CIDR,199.59.148.0/22,AiSocial
+IP-CIDR,199.96.56.0/21,AiSocial
+IP-CIDR,202.160.128.0/22,AiSocial
+IP-CIDR,209.237.192.0/19,AiSocial
+IP-CIDR,69.195.160.0/19,AiSocial
+# ===== Telegram =====
+# Telegram
+#PROCESS-NAME,Telegram.exe
+#PROCESS-NAME,org.telegram.messenger
+DOMAIN-SUFFIX,t.me,AiSocial
+DOMAIN-SUFFIX,tdesktop.com,AiSocial
+DOMAIN-SUFFIX,telegra.ph,AiSocial
+DOMAIN-SUFFIX,telegram.me,AiSocial
+DOMAIN-SUFFIX,telegram.org,AiSocial
+DOMAIN-SUFFIX,telesco.pe,AiSocial
+IP-CIDR,91.108.0.0/16,AiSocial
+IP-CIDR,95.161.64.0/20,AiSocial
+IP-CIDR,109.239.140.0/24,AiSocial
+IP-CIDR,149.154.160.0/20,AiSocial
+IP-CIDR6,2001:67c:4e8::/48,AiSocial
+IP-CIDR6,2001:b28:f23d::/48,AiSocial
+IP-CIDR6,2001:b28:f23f::/48,AiSocial
