@@ -23,12 +23,14 @@ jobs:
             local url="$2"
             echo "# ==================== ${title} ====================" >> "$OUT"
             curl -fsSL "$url" | sed -E '
-              # 删除空行和纯注释可保留注释
+              # 删除空行
               /^[[:space:]]*$/d
-              # 已有策略名的行：DOMAIN-SUFFIX,xx,旧策略 → 改成 AiSocial
-              s/^(DOMAIN-SUFFIX|DOMAIN-KEYWORD|DOMAIN|DOMAIN-WILDCARD|IP-CIDR|IP-CIDR6|PROCESS-NAME|USER-AGENT)(,.*)(,[^,[:space:]]+)[[:space:]]*$/\1\2,AiSocial/I
-              # 没有策略名的行：DOMAIN-SUFFIX,xx → 补上 ,AiSocial
-              s/^(DOMAIN-SUFFIX|DOMAIN-KEYWORD|DOMAIN|DOMAIN-WILDCARD|IP-CIDR|IP-CIDR6|PROCESS-NAME|USER-AGENT)(,[^,[:space:]]+)[[:space:]]*$/\1\2,AiSocial/I
+              # 去掉行尾策略名：DOMAIN-SUFFIX,xx,策略 → DOMAIN-SUFFIX,xx
+              s/^(DOMAIN-SUFFIX|DOMAIN-KEYWORD|DOMAIN|DOMAIN-WILDCARD|IP-CIDR|IP-CIDR6|PROCESS-NAME|USER-AGENT)(,[^,[:space:]]+)(,[^,[:space:]]+)[[:space:]]*$/\1\2/I
+              # 保留注释行
+              /^#/p
+              # 只保留合法规则行
+              /^(DOMAIN-SUFFIX|DOMAIN-KEYWORD|DOMAIN|DOMAIN-WILDCARD|IP-CIDR|IP-CIDR6|PROCESS-NAME|USER-AGENT),/I!d
             ' >> "$OUT" || true
             echo "" >> "$OUT"
           }
