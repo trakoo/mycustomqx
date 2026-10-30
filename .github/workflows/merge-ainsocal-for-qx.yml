@@ -1,0 +1,62 @@
+name: Merge AiSocial (Quantumult X)
+
+on:
+  schedule:
+    - cron: '5 3 * * *'
+  workflow_dispatch:
+
+jobs:
+  merge:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Download, convert to QX and merge
+        run: |
+          set -e
+          OUT="ainsocalallinoneQx.list"
+          : > "$OUT"
+
+          process() {
+            local title="$1"
+            local url="$2"
+            echo "# ==================== ${title} ====================" >> "$OUT"
+            curl -fsSL "$url" | sed -E '
+              /^[[:space:]]*$/d
+              # 先统一策略名为 AiSocial（有或无第三段都处理）
+              s/^(DOMAIN-SUFFIX|DOMAIN-KEYWORD|DOMAIN|DOMAIN-WILDCARD|IP-CIDR|IP-CIDR6|PROCESS-NAME|USER-AGENT)(,.*)(,[^,[:space:]]+)[[:space:]]*$/\1\2,AiSocial/I
+              s/^(DOMAIN-SUFFIX|DOMAIN-KEYWORD|DOMAIN|DOMAIN-WILDCARD|IP-CIDR|IP-CIDR6|PROCESS-NAME|USER-AGENT)(,[^,[:space:]]+)[[:space:]]*$/\1\2,AiSocial/I
+              # Clash → Quantumult X 关键字映射
+              s/^DOMAIN-SUFFIX,/HOST-SUFFIX,/I
+              s/^DOMAIN-KEYWORD,/HOST-KEYWORD,/I
+              s/^DOMAIN,/HOST,/I
+              s/^DOMAIN-WILDCARD,/HOST-WILDCARD,/I
+              s/^USER-AGENT,/USER-AGENT,/I
+              s/^IP-CIDR,/IP-CIDR,/I
+              s/^IP-CIDR6,/IP6-CIDR,/I
+              # 不支持的规则直接丢掉（可选）
+              /^PROCESS-NAME,/d
+            ' >> "$OUT" || true
+            echo "" >> "$OUT"
+          }
+
+          process "Dropbox" "https://raw.githubusercontent.com/trakoo/ios_rule_script/refs/heads/master/rule/Clash/Dropbox/Dropbox.list"
+          process "GitHub"  "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/GitHub/GitHub.list"
+          process "Meta AI" "https://raw.githubusercontent.com/trakoo/mycustomqx/refs/heads/main/Metacl.list"
+          process "OpenAI"  "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/OpenAi.list"
+          process "XnTG"    "https://raw.githubusercontent.com/trakoo/mycustomqx/refs/heads/main/XnTG.list"
+
+          sed -i -e :a -e '/^\n*$/{$d;N;ba' -e '}' "$OUT" || true
+
+      - name: Commit and push if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add ainsocalallinoneQx.list
+          if git diff --staged --quiet; then
+            echo "No changes"
+          else
+            git commit -m "chore: update ainsocalallinoneQx.list"
+            git push
+          fi
