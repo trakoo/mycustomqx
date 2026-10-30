@@ -5,23 +5,23 @@
 # UPDATED: 2025-06-06 09:17:43
 # DOMAIN-SUFFIX: 17
 # TOTAL: 17
-DOMAIN-SUFFIX,db.tt,AiSocial
-DOMAIN-SUFFIX,dropbox-dns.com,AiSocial
-DOMAIN-SUFFIX,dropbox.com,AiSocial
-DOMAIN-SUFFIX,dropbox.tech,AiSocial
-DOMAIN-SUFFIX,dropbox.zendesk.com,AiSocial
-DOMAIN-SUFFIX,dropboxapi.com,AiSocial
-DOMAIN-SUFFIX,dropboxbusiness.com,AiSocial
-DOMAIN-SUFFIX,dropboxcaptcha.com,AiSocial
-DOMAIN-SUFFIX,dropboxforum.com,AiSocial
-DOMAIN-SUFFIX,dropboxforums.com,AiSocial
-DOMAIN-SUFFIX,dropboxinsiders.com,AiSocial
-DOMAIN-SUFFIX,dropboxmail.com,AiSocial
-DOMAIN-SUFFIX,dropboxpartners.com,AiSocial
-DOMAIN-SUFFIX,dropboxstatic.com,AiSocial
-DOMAIN-SUFFIX,dropboxusercontent.com,AiSocial
-DOMAIN-SUFFIX,getdropbox.com,AiSocial
-DOMAIN-SUFFIX,paper-attachments.s3.amazonaws.com,AiSocial
+DOMAIN-SUFFIX,db.tt
+DOMAIN-SUFFIX,dropbox-dns.com
+DOMAIN-SUFFIX,dropbox.com
+DOMAIN-SUFFIX,dropbox.tech
+DOMAIN-SUFFIX,dropbox.zendesk.com
+DOMAIN-SUFFIX,dropboxapi.com
+DOMAIN-SUFFIX,dropboxbusiness.com
+DOMAIN-SUFFIX,dropboxcaptcha.com
+DOMAIN-SUFFIX,dropboxforum.com
+DOMAIN-SUFFIX,dropboxforums.com
+DOMAIN-SUFFIX,dropboxinsiders.com
+DOMAIN-SUFFIX,dropboxmail.com
+DOMAIN-SUFFIX,dropboxpartners.com
+DOMAIN-SUFFIX,dropboxstatic.com
+DOMAIN-SUFFIX,dropboxusercontent.com
+DOMAIN-SUFFIX,getdropbox.com
+DOMAIN-SUFFIX,paper-attachments.s3.amazonaws.com
 
 # ==================== GitHub ====================
 # NAME: GitHub
@@ -31,67 +31,67 @@ DOMAIN-SUFFIX,paper-attachments.s3.amazonaws.com,AiSocial
 # DOMAIN-KEYWORD: 1
 # DOMAIN-SUFFIX: 30
 # TOTAL: 31
-DOMAIN-SUFFIX,atom.io,AiSocial
-DOMAIN-SUFFIX,dependabot.com,AiSocial
-DOMAIN-SUFFIX,ghcr.io,AiSocial
-DOMAIN-SUFFIX,git.io,AiSocial
-DOMAIN-SUFFIX,github-atom-io-herokuapp-com.freetls.fastly.net,AiSocial
-DOMAIN-SUFFIX,github-avatars.oss-cn-hongkong.aliyuncs.com,AiSocial
-DOMAIN-SUFFIX,github-cloud.s3.amazonaws.com,AiSocial
-DOMAIN-SUFFIX,github.blog,AiSocial
-DOMAIN-SUFFIX,github.com,AiSocial
-DOMAIN-SUFFIX,github.community,AiSocial
-DOMAIN-SUFFIX,github.dev,AiSocial
-DOMAIN-SUFFIX,github.io,AiSocial
-DOMAIN-SUFFIX,githubapp.com,AiSocial
-DOMAIN-SUFFIX,githubassets.com,AiSocial
-DOMAIN-SUFFIX,githubcopilot.com,AiSocial
-DOMAIN-SUFFIX,githubhackathon.com,AiSocial
-DOMAIN-SUFFIX,githubnext.com,AiSocial
-DOMAIN-SUFFIX,githubpreview.dev,AiSocial
-DOMAIN-SUFFIX,githubstatus.com,AiSocial
-DOMAIN-SUFFIX,githubuniverse.com,AiSocial
-DOMAIN-SUFFIX,githubusercontent.com,AiSocial
-DOMAIN-SUFFIX,myoctocat.com,AiSocial
-DOMAIN-SUFFIX,npm.community,AiSocial
-DOMAIN-SUFFIX,npmjs.com,AiSocial
-DOMAIN-SUFFIX,npmjs.org,AiSocial
-DOMAIN-SUFFIX,opensource.guide,AiSocial
-DOMAIN-SUFFIX,rawgit.com,AiSocial
-DOMAIN-SUFFIX,rawgithub.com,AiSocial
-DOMAIN-SUFFIX,repo.new,AiSocial
-DOMAIN-SUFFIX,thegithubshop.com,AiSocial
-DOMAIN-KEYWORD,github,AiSocial
+DOMAIN-SUFFIX,atom.io
+DOMAIN-SUFFIX,dependabot.com
+DOMAIN-SUFFIX,ghcr.io
+DOMAIN-SUFFIX,git.io
+DOMAIN-SUFFIX,github-atom-io-herokuapp-com.freetls.fastly.net
+DOMAIN-SUFFIX,github-avatars.oss-cn-hongkong.aliyuncs.com
+DOMAIN-SUFFIX,github-cloud.s3.amazonaws.com
+DOMAIN-SUFFIX,github.blog
+DOMAIN-SUFFIX,github.com
+DOMAIN-SUFFIX,github.community
+DOMAIN-SUFFIX,github.dev
+DOMAIN-SUFFIX,github.io
+DOMAIN-SUFFIX,githubapp.com
+DOMAIN-SUFFIX,githubassets.com
+DOMAIN-SUFFIX,githubcopilot.com
+DOMAIN-SUFFIX,githubhackathon.com
+DOMAIN-SUFFIX,githubnext.com
+DOMAIN-SUFFIX,githubpreview.dev
+DOMAIN-SUFFIX,githubstatus.com
+DOMAIN-SUFFIX,githubuniverse.com
+DOMAIN-SUFFIX,githubusercontent.com
+DOMAIN-SUFFIX,myoctocat.com
+DOMAIN-SUFFIX,npm.community
+DOMAIN-SUFFIX,npmjs.com
+DOMAIN-SUFFIX,npmjs.org
+DOMAIN-SUFFIX,opensource.guide
+DOMAIN-SUFFIX,rawgit.com
+DOMAIN-SUFFIX,rawgithub.com
+DOMAIN-SUFFIX,repo.new
+DOMAIN-SUFFIX,thegithubshop.com
+DOMAIN-KEYWORD,github
 
 # ==================== Meta AI ====================
 #Muse.ai / Meta AI
-DOMAIN-SUFFIX,muse.ai,AiSocial
-DOMAIN-SUFFIX,meta.ai,AiSocial
-DOMAIN-SUFFIX,ai.meta.com,AiSocial
-DOMAIN-SUFFIX,meta.com,AiSocial
-DOMAIN-KEYWORD,muse,AiSocial
-DOMAIN-KEYWORD,metaai,AiSocial
+DOMAIN-SUFFIX,muse.ai
+DOMAIN-SUFFIX,meta.ai
+DOMAIN-SUFFIX,ai.meta.com
+DOMAIN-SUFFIX,meta.com
+DOMAIN-KEYWORD,muse
+DOMAIN-KEYWORD,metaai
 
 # ==================== OpenAI ====================
 # 内容：OpenAi
 # 数量：16条
-DOMAIN-KEYWORD,openai,AiSocial
-DOMAIN-SUFFIX,auth0.com,AiSocial
-DOMAIN-SUFFIX,challenges.cloudflare.com,AiSocial
-DOMAIN-SUFFIX,chatgpt.com,AiSocial
-DOMAIN-SUFFIX,client-api.arkoselabs.com,AiSocial
-DOMAIN-SUFFIX,events.statsigapi.net,AiSocial
-DOMAIN-SUFFIX,featuregates.org,AiSocial
-DOMAIN-SUFFIX,identrust.com,AiSocial
-DOMAIN-SUFFIX,intercom.io,AiSocial
-DOMAIN-SUFFIX,intercomcdn.com,AiSocial
-DOMAIN-SUFFIX,oaistatic.com,AiSocial
-DOMAIN-SUFFIX,oaiusercontent.com,AiSocial
-DOMAIN-SUFFIX,openai.com,AiSocial
-DOMAIN-SUFFIX,openaiapi-site.azureedge.net,AiSocial
-DOMAIN-SUFFIX,sentry.io,AiSocial
-DOMAIN-SUFFIX,stripe.com,AiSocial
-DOMAIN-SUFFIX,sora.com,AiSocial
+DOMAIN-KEYWORD,openai
+DOMAIN-SUFFIX,auth0.com
+DOMAIN-SUFFIX,challenges.cloudflare.com
+DOMAIN-SUFFIX,chatgpt.com
+DOMAIN-SUFFIX,client-api.arkoselabs.com
+DOMAIN-SUFFIX,events.statsigapi.net
+DOMAIN-SUFFIX,featuregates.org
+DOMAIN-SUFFIX,identrust.com
+DOMAIN-SUFFIX,intercom.io
+DOMAIN-SUFFIX,intercomcdn.com
+DOMAIN-SUFFIX,oaistatic.com
+DOMAIN-SUFFIX,oaiusercontent.com
+DOMAIN-SUFFIX,openai.com
+DOMAIN-SUFFIX,openaiapi-site.azureedge.net
+DOMAIN-SUFFIX,sentry.io
+DOMAIN-SUFFIX,stripe.com
+DOMAIN-SUFFIX,sora.com
 
 # ==================== XnTG ====================
 # XnTG List (Twitter + Telegram)
@@ -110,53 +110,53 @@ DOMAIN-SUFFIX,sora.com,AiSocial
 # DOMAIN-SUFFIX: 26
 # IP-CIDR: 6
 # TOTAL: 33
-DOMAIN-SUFFIX,ads-twitter.com,AiSocial
-DOMAIN-SUFFIX,cms-twdigitalassets.com,AiSocial
-DOMAIN-SUFFIX,grok.com,AiSocial
-DOMAIN-SUFFIX,periscope.tv,AiSocial
-DOMAIN-SUFFIX,pscp.tv,AiSocial
-DOMAIN-SUFFIX,t.co,AiSocial
-DOMAIN-SUFFIX,tellapart.com,AiSocial
-DOMAIN-SUFFIX,tweetdeck.com,AiSocial
-DOMAIN-SUFFIX,twimg.co,AiSocial
-DOMAIN-SUFFIX,twimg.com,AiSocial
-DOMAIN-SUFFIX,twimg.org,AiSocial
-DOMAIN-SUFFIX,twitpic.com,AiSocial
-DOMAIN-SUFFIX,twitter.biz,AiSocial
-DOMAIN-SUFFIX,twitter.com,AiSocial
-DOMAIN-SUFFIX,twitter.jp,AiSocial
-DOMAIN-SUFFIX,twittercommunity.com,AiSocial
-DOMAIN-SUFFIX,twitterflightschool.com,AiSocial
-DOMAIN-SUFFIX,twitterinc.com,AiSocial
-DOMAIN-SUFFIX,twitteroauth.com,AiSocial
-DOMAIN-SUFFIX,twitterstat.us,AiSocial
-DOMAIN-SUFFIX,twtrdns.net,AiSocial
-DOMAIN-SUFFIX,twttr.com,AiSocial
-DOMAIN-SUFFIX,twttr.net,AiSocial
-DOMAIN-SUFFIX,twvid.com,AiSocial
-DOMAIN-SUFFIX,vine.co,AiSocial
-DOMAIN-SUFFIX,x.com,AiSocial
-DOMAIN-KEYWORD,twitter,AiSocial
-IP-CIDR,192.133.76.0/22,AiSocial
-IP-CIDR,199.59.148.0/22,AiSocial
-IP-CIDR,199.96.56.0/21,AiSocial
-IP-CIDR,202.160.128.0/22,AiSocial
-IP-CIDR,209.237.192.0/19,AiSocial
-IP-CIDR,69.195.160.0/19,AiSocial
+DOMAIN-SUFFIX,ads-twitter.com
+DOMAIN-SUFFIX,cms-twdigitalassets.com
+DOMAIN-SUFFIX,grok.com
+DOMAIN-SUFFIX,periscope.tv
+DOMAIN-SUFFIX,pscp.tv
+DOMAIN-SUFFIX,t.co
+DOMAIN-SUFFIX,tellapart.com
+DOMAIN-SUFFIX,tweetdeck.com
+DOMAIN-SUFFIX,twimg.co
+DOMAIN-SUFFIX,twimg.com
+DOMAIN-SUFFIX,twimg.org
+DOMAIN-SUFFIX,twitpic.com
+DOMAIN-SUFFIX,twitter.biz
+DOMAIN-SUFFIX,twitter.com
+DOMAIN-SUFFIX,twitter.jp
+DOMAIN-SUFFIX,twittercommunity.com
+DOMAIN-SUFFIX,twitterflightschool.com
+DOMAIN-SUFFIX,twitterinc.com
+DOMAIN-SUFFIX,twitteroauth.com
+DOMAIN-SUFFIX,twitterstat.us
+DOMAIN-SUFFIX,twtrdns.net
+DOMAIN-SUFFIX,twttr.com
+DOMAIN-SUFFIX,twttr.net
+DOMAIN-SUFFIX,twvid.com
+DOMAIN-SUFFIX,vine.co
+DOMAIN-SUFFIX,x.com
+DOMAIN-KEYWORD,twitter
+IP-CIDR,192.133.76.0/22
+IP-CIDR,199.59.148.0/22
+IP-CIDR,199.96.56.0/21
+IP-CIDR,202.160.128.0/22
+IP-CIDR,209.237.192.0/19
+IP-CIDR,69.195.160.0/19
 # ===== Telegram =====
 # Telegram
 #PROCESS-NAME,Telegram.exe
 #PROCESS-NAME,org.telegram.messenger
-DOMAIN-SUFFIX,t.me,AiSocial
-DOMAIN-SUFFIX,tdesktop.com,AiSocial
-DOMAIN-SUFFIX,telegra.ph,AiSocial
-DOMAIN-SUFFIX,telegram.me,AiSocial
-DOMAIN-SUFFIX,telegram.org,AiSocial
-DOMAIN-SUFFIX,telesco.pe,AiSocial
-IP-CIDR,91.108.0.0/16,AiSocial
-IP-CIDR,95.161.64.0/20,AiSocial
-IP-CIDR,109.239.140.0/24,AiSocial
-IP-CIDR,149.154.160.0/20,AiSocial
-IP-CIDR6,2001:67c:4e8::/48,AiSocial
-IP-CIDR6,2001:b28:f23d::/48,AiSocial
-IP-CIDR6,2001:b28:f23f::/48,AiSocial
+DOMAIN-SUFFIX,t.me
+DOMAIN-SUFFIX,tdesktop.com
+DOMAIN-SUFFIX,telegra.ph
+DOMAIN-SUFFIX,telegram.me
+DOMAIN-SUFFIX,telegram.org
+DOMAIN-SUFFIX,telesco.pe
+IP-CIDR,91.108.0.0/16
+IP-CIDR,95.161.64.0/20
+IP-CIDR,109.239.140.0/24
+IP-CIDR,149.154.160.0/20
+IP-CIDR6,2001:67c:4e8::/48
+IP-CIDR6,2001:b28:f23d::/48
+IP-CIDR6,2001:b28:f23f::/48
