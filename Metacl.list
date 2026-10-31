@@ -1,7 +1,23 @@
+# ================= Meta AI =================
 #Muse.ai / Meta AI
+# --- 核心 ---
 DOMAIN-SUFFIX,muse.ai
-DOMAIN-SUFFIX.ai
-DOMAIN-SUFFIX,ai.meta.com
-DOMAIN-SUFFIX.com
-DOMAIN-KEYWORD,muse
-DOMAIN-KEYWORDai
+DOMAIN-SUFFIX,museai.com
+DOMAIN-SUFFIX,meta.ai
+DOMAIN-SUFFIX,meta.com
+DOMAIN-SUFFIX,atmeta.com
+DOMAIN,api.meta.ai
+DOMAIN,dev.meta.ai
+# --- Secure VM / 用户内容 / OHTTP 隐私网关 ---
+DOMAIN-SUFFIX,metaaivm.com
+DOMAIN-SUFFIX,metaaiusercontent.com
+DOMAIN-SUFFIX,ecto1usercontent.com
+DOMAIN,hatch.ecto1.ai
+DOMAIN,node.hatch.one
+DOMAIN,meta.privacy-gateway.cloudflare.com
+DOMAIN,meta.hpke-keys.privacy-gateway.cloudflare.com
+DOMAIN,meta-ohttp-relay-prod.fastly-edge.com
+DOMAIN,meta-ohttp-config-prod.fastly-edge.com
+# --- Meta AI / Llama 开发者 ---
+DOMAIN-SUFFIX,llama.com
+DOMAIN-SUFFIX,llamameta.net
