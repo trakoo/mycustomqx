@@ -66,11 +66,11 @@ HOST-KEYWORD,github,AiSocial
 # ==================== Meta AI ====================
 #Muse.ai / Meta AI
 HOST-SUFFIX,muse.ai,AiSocial
-HOST-SUFFIX,meta.ai,AiSocial
+DOMAIN-SUFFIX.ai
 HOST-SUFFIX,ai.meta.com,AiSocial
-HOST-SUFFIX,meta.com,AiSocial
+DOMAIN-SUFFIX.com
 HOST-KEYWORD,muse,AiSocial
-HOST-KEYWORD,metaai,AiSocial
+DOMAIN-KEYWORDai
 
 # ==================== OpenAI ====================
 # 内容：OpenAi
@@ -96,7 +96,7 @@ HOST-SUFFIX,sora.com,AiSocial
 # ==================== XnTG ====================
 # XnTG List (Twitter + Telegram)
 # Auto-updated by GitHub Actions
-# Last update: 2026-10-30 05:41:13 UTC
+# Last update: 2026-10-31 05:34:10 UTC
 #
 # Sources:
 # 1. https://raw.githubusercontent.com/trakoo/ios_rule_script/refs/heads/master/rule/Clash/Twitter/Twitter.list
