@@ -66,11 +66,8 @@ DOMAIN-KEYWORD,github
 # ==================== Meta AI ====================
 #Muse.ai / Meta AI
 DOMAIN-SUFFIX,muse.ai
-DOMAIN-SUFFIX,meta.ai
 DOMAIN-SUFFIX,ai.meta.com
-DOMAIN-SUFFIX,meta.com
 DOMAIN-KEYWORD,muse
-DOMAIN-KEYWORD,metaai
 
 # ==================== OpenAI ====================
 # 内容：OpenAi
@@ -96,7 +93,7 @@ DOMAIN-SUFFIX,sora.com
 # ==================== XnTG ====================
 # XnTG List (Twitter + Telegram)
 # Auto-updated by GitHub Actions
-# Last update: 2026-10-30 05:41:13 UTC
+# Last update: 2026-10-31 05:34:10 UTC
 #
 # Sources:
 # 1. https://raw.githubusercontent.com/trakoo/ios_rule_script/refs/heads/master/rule/Clash/Twitter/Twitter.list
