@@ -64,13 +64,29 @@ HOST-SUFFIX,thegithubshop.com,AiSocial
 HOST-KEYWORD,github,AiSocial
 
 # ==================== Meta AI ====================
+# ================= Meta AI =================
 #Muse.ai / Meta AI
+# --- 核心 ---
 HOST-SUFFIX,muse.ai,AiSocial
-DOMAIN-SUFFIX.ai
-HOST-SUFFIX,ai.meta.com,AiSocial
-DOMAIN-SUFFIX.com
-HOST-KEYWORD,muse,AiSocial
-DOMAIN-KEYWORDai
+HOST-SUFFIX,museai.com,AiSocial
+HOST-SUFFIX,meta.ai,AiSocial
+HOST-SUFFIX,meta.com,AiSocial
+HOST-SUFFIX,atmeta.com,AiSocial
+HOST,api.meta.ai,AiSocial
+HOST,dev.meta.ai,AiSocial
+# --- Secure VM / 用户内容 / OHTTP 隐私网关 ---
+HOST-SUFFIX,metaaivm.com,AiSocial
+HOST-SUFFIX,metaaiusercontent.com,AiSocial
+HOST-SUFFIX,ecto1usercontent.com,AiSocial
+HOST,hatch.ecto1.ai,AiSocial
+HOST,node.hatch.one,AiSocial
+HOST,meta.privacy-gateway.cloudflare.com,AiSocial
+HOST,meta.hpke-keys.privacy-gateway.cloudflare.com,AiSocial
+HOST,meta-ohttp-relay-prod.fastly-edge.com,AiSocial
+HOST,meta-ohttp-config-prod.fastly-edge.com,AiSocial
+# --- Meta AI / Llama 开发者 ---
+HOST-SUFFIX,llama.com,AiSocial
+HOST-SUFFIX,llamameta.net,AiSocial
 
 # ==================== OpenAI ====================
 # 内容：OpenAi
