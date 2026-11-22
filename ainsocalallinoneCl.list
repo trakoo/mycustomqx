@@ -90,7 +90,7 @@ DOMAIN-SUFFIX,llamameta.net
 
 # ==================== OpenAI ====================
 # 内容：OpenAi
-# 数量：16条
+# 数量：17条
 DOMAIN-KEYWORD,openai
 DOMAIN-SUFFIX,auth0.com
 DOMAIN-SUFFIX,challenges.cloudflare.com
@@ -106,13 +106,12 @@ DOMAIN-SUFFIX,oaiusercontent.com
 DOMAIN-SUFFIX,openai.com
 DOMAIN-SUFFIX,openaiapi-site.azureedge.net
 DOMAIN-SUFFIX,sentry.io
-DOMAIN-SUFFIX,stripe.com
 DOMAIN-SUFFIX,sora.com
-
+DOMAIN-SUFFIX,stripe.com
 # ==================== XnTG ====================
 # XnTG List (Twitter + Telegram)
 # Auto-updated by GitHub Actions
-# Last update: 2026-11-21 06:59:14 UTC
+# Last update: 2026-11-22 06:40:11 UTC
 #
 # Sources:
 # 1. https://raw.githubusercontent.com/trakoo/ios_rule_script/refs/heads/master/rule/Clash/Twitter/Twitter.list
