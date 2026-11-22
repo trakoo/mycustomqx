@@ -1,6 +1,6 @@
 # Google All-in-One List
 # Auto-updated by GitHub Actions
-# Last update: 2026-11-21 05:43:47 UTC
+# Last update: 2026-11-22 05:13:03 UTC
 #
 # Sources:
 # 1. https://raw.githubusercontent.com/BlueGrave/Surge/refs/heads/master/Ruleset/Mail.list
@@ -732,7 +732,7 @@ PROCESS-NAME,com.google.android.play.games
 PROCESS-NAME,BackupandSync
 # ===== YouTube =====
 # 内容：YouTube
-# 数量：17条
+# 数量：14条
 DOMAIN-KEYWORD,youtube
 DOMAIN,youtubei.googleapis.com
 DOMAIN,yt3.ggpht.com
